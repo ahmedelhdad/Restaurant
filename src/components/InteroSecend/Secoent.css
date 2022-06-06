@@ -1,0 +1,45 @@
+
+a.link
+{
+    transition: 0.3s ease;
+}
+a.link:hover
+{
+   background-color: transparent !important;
+   border: 2px solid var(--color);
+   color: var(--color) !important;
+}
+svg
+{
+    color: var(--color) !important;
+}
+.left
+{
+    animation: left 1s forwards linear;
+    transition: 0.5s;
+}
+.right
+{
+    animation: right 1s forwards linear;
+    transition: 0.5s;
+}
+@keyframes left {
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100% 
+    {
+        transform: translateX(0%);
+    }
+}
+@keyframes right {
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100% 
+    {
+        transform: translateX(0%);
+    }
+}

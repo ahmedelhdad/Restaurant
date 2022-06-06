@@ -1,0 +1,75 @@
+.Testimonials
+{
+    background-color: var(--color);
+    text-align: center;
+    padding: 60px;
+}
+.Testimonials h1 
+{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel
+{
+    padding: 120px;
+}
+.Testimonials .carousel-item
+{
+    background-color: white;
+    padding: 30px;
+}
+.Testimonials .carousel-item img 
+{
+    width: 100px;
+    height: 100px;
+}
+.Testimonials .carousel-item p 
+{
+    list-style: 1.7;
+    font-size: 20px;
+    padding: 20px 0;
+
+} 
+.Testimonials .carousel-item span 
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color);
+}
+.carousel-indicators button
+{
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+}
+@media(max-width:767px)
+{
+        .Testimonials
+        {
+            padding: 30px;
+        }
+        .Testimonials h1 
+        {
+            color: white;
+            text-transform: uppercase;
+        }
+        .carousel
+        {
+            padding: 50px;
+        }
+        .Testimonials .carousel-item
+        {
+            padding: 15px;
+        }
+        .Testimonials .carousel-item p 
+        {
+            font-size: 14px;
+            padding: 10px 0;
+
+        } 
+        .Testimonials .carousel-item span 
+        {
+            font-size: 13px;
+        }
+}

@@ -1,0 +1,27 @@
+
+
+nav a
+{
+    color: var(--color) !important;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 72px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+}
+.number
+{
+    background-color: var(--color);
+    height: auto;
+    border: 3px solid var(--color) ;
+    color: white !important;
+    transition: 0.5s;
+}
+.number:hover
+{
+    background-color: transparent;
+    color: var(--color) !important;
+}

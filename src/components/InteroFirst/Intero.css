@@ -1,0 +1,43 @@
+
+
+.learn
+{
+    background-color: var(--color);
+    transition: 0.3s ease;
+}
+.learn:hover
+{
+    background-color: transparent;
+    border: 2px solid var(--color);
+    color: var(--color) !important;
+}
+.left
+{
+    animation: left 1s forwards linear;
+    transition: 0.5s;
+}
+.right
+{
+    animation: right 1s forwards linear;
+    transition: 0.5s;
+}
+@keyframes left {
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100% 
+    {
+        transform: translateX(0%);
+    }
+}
+@keyframes right {
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100% 
+    {
+        transform: translateX(0%);
+    }
+}

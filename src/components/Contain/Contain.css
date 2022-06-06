@@ -1,0 +1,20 @@
+
+
+.contain
+{
+    background: url(../Props/contain.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.contain button 
+{
+    background-color: var(--color);
+    border: 2px solid var(--color);
+    color: white;
+    transition: 0.4s ease;
+}
+.contain button:hover
+{
+    background-color: transparent;
+    color: var(--color);
+}

@@ -1,0 +1,36 @@
+.landing
+{
+    height: calc(100vh - 88px);
+    
+    background: url(../Props/3.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.landing .info h1 
+{
+    font-size: 40px;
+}
+.landing a
+{
+    transition: 0.3s ease;
+}
+.landing a:first-child
+{
+    background-color: var(--color);
+}
+.landing a:first-child:hover
+{
+    background-color: transparent;
+    color: var(--color) !important;
+    border: 2px solid var(--color);
+}
+.landing  a:last-child
+{
+    background-color: transparent;
+    color: var(--color) !important;
+    
+}
+.landing a:last-child:hover
+{
+    border: 2px solid var(--color);
+}
